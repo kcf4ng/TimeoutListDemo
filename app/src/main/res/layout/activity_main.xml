@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnOP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+OP"
+        android:textSize="30sp"
+        android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnTimeOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+Time Out"
+            android:textSize="30sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/timeout_list"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:textSize="30sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
